@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regist</title>
+</head>
+
+<body>
+    <h4>REGIST</h4>
+    <form>
+        <table border="1" cellpadding="0" cellspacing="0" width="500">
+            <tr>
+                <td>Name</td>
+                <td><input type="radio" name="gender" value="Male" id="Male"> <label for="Male">Male</label> <input type="radio" name="gender" value="Female" id="Female">  <label for="Female">Female</label> <input type="radio" name="gender" checked value="Others" id="Others"><label for="Others">Others</label></td>
+            </tr>
+            <tr>
+                <td>Birth</td>
+                <td>
+                    <select>
+                        <option selected>--year--</option>
+                        <option>2020</option>
+                        <option>2021</option>    
+                        <option>...</option>                
+                    </select>
+                    <select>
+                        <option selected>--month--</option>
+                        <option>Jan</option>
+                        <option>Feb</option>  
+                        <option>...</option>                  
+                    </select>
+                    <select>
+                        <option selected>--date--</option>
+                        <option>1st</option>
+                        <option>2nd</option>  
+                        <option>...</option>                  
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="address" value="input your address"></td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td> <input type="checkbox" name="hobbies" value="playing1" id="hobby1"> <label for="hobby1">Playing</label> <input type="checkbox" name="hobbies" value="ingPlay" id="hobby2"> <label for="hobby2">ingPlay</label> <input type="checkbox" name="hobbies" value="PlayingPlay" id="hobby3"><label for="hobby3">PlayingPlay</label></td>
+            </tr>
+            <tr>
+                <td>Self introduction</td>
+                <td><textarea cols="50" rows="5">Handsome!</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="agreement" value="agreed" id="agree" selected><label for="agree">I agree.</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="https://en.wikipedia.org/" target="_blank">Sign in</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <dl>
+                        <dt>Advertisement</dt>
+                        <dd>Ad1</dd>
+                        <dd>Ad2</dd>
+                        <dd>Ad3</dd>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
