@@ -7,3 +7,6 @@ Url: https://www.bilibili.com/video/BV14J4114768?p=1
 
 Update on July, 21st, 2021 
 上传html基础部分，未完待续
+
+Update on March, 1st, 2023 
+上传/css部分/day3，未完待续
