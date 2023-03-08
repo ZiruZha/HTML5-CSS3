@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后代选择器</title>
+    <style>
+        ol li {
+            color: red;
+        }
+        
+        ol li ol li {
+            color: blue;
+        }
+        
+        .nav li a {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>后代选择器</li>
+        <li>
+            <ol>
+                <li>后代选择器</li>
+            </ol>
+        </li>
+        <li>
+            <ol>
+                <li>
+                    <ol>
+                        <li>后代选择器</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <ul>
+        <li>后代选择器</li>
+        <li>后代选择器</li>
+        <li>后代选择器</li>
+    </ul>
+    <ul class="nav">
+        <li>后代选择器</li>
+        <li><a href="#">后代选择器</a></li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hiden {
+            background: rgba(0, 0, 0, 1);
+            text-decoration: none;
+            color: black;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        
+        .bkg {
+            background-image: url(images/Solvay_Conference_1927.jpg);
+            text-decoration: none;
+            color: black;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        
+        .hiden:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .bkg:hover {
+            background: rgba(164, 48, 48, 0.5);
+        }
+        
+        a:active {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" class="hiden">hiden link</a>
+    <a href="#" class="bkg">bkg</a>
+    <div class="bkg"></div>
+    <a href="http://www.baidu.com">baidu</a>
+</body>
+
+</html>
